@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-ndarraylike2object",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Convert an ndarray-like object to an object likely to have the same \"shape\".",
   "license": "Apache-2.0",
   "author": {
