@@ -1,0 +1,38 @@
+{
+  "name": "@stdlib/ndarray-base-ndarraylike2object",
+  "version": "0.0.0",
+  "description": "Convert an ndarray-like object to an object likely to have the same \"shape\".",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/ndarray-base-ndarraylike2object.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "types",
+    "base",
+    "ndarray",
+    "standardize",
+    "shape",
+    "hidden",
+    "objectify",
+    "meta",
+    "multidimensional",
+    "array",
+    "utilities",
+    "utility",
+    "utils",
+    "util"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
