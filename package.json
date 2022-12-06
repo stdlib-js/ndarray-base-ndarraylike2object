@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/boolean-ctor": "^0.0.x",
+    "@stdlib/array-base-assert-is-accessor-array": "^0.0.x",
     "@stdlib/ndarray-base-numel": "^0.0.x",
     "@stdlib/types": "^0.0.x"
   },
