@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+ndarraylike2object = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2object@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-ndarraylike2object/tags). For example,
+
+```javascript
 ndarraylike2object = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2object@v0.1.0-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var ndarraylike2object = require( 'path/to/vendor/umd/ndarray-base-ndarraylike2o
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2object@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2object@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -144,7 +149,7 @@ var obj = ndarraylike2object( arr );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2object@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2object@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
