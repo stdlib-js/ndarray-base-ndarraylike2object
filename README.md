@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ndarraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2object@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-ndarraylike2object/tags). For example,
+
+```javascript
 import ndarraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2object@v0.1.0-deno/mod.js';
 ```
 
@@ -117,7 +122,7 @@ var obj = ndarraylike2object( arr );
 
 ```javascript
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
-import ndarraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2object@v0.1.0-deno/mod.js';
+import ndarraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2object@deno/mod.js';
 
 // Create an ndarray:
 var x = array( [ [ 1, 2 ], [ 3, 4 ] ] );
