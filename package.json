@@ -42,7 +42,7 @@
     "@stdlib/array-base-assert-is-accessor-array": "^0.1.0",
     "@stdlib/array-base-getter": "^0.1.0",
     "@stdlib/array-base-setter": "^0.1.0",
-    "@stdlib/ndarray-base-numel": "^0.1.0",
+    "@stdlib/ndarray-base-numel": "^0.1.1",
     "@stdlib/types": "^0.1.0"
   },
   "devDependencies": {
