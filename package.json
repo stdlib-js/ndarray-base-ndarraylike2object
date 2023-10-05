@@ -43,7 +43,8 @@
     "@stdlib/array-base-getter": "^0.1.0",
     "@stdlib/array-base-setter": "^0.1.0",
     "@stdlib/ndarray-base-numel": "^0.1.1",
-    "@stdlib/types": "^0.1.0"
+    "@stdlib/types": "^0.1.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/array-complex64": "^0.1.0",
