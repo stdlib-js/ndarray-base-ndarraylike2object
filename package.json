@@ -42,7 +42,13 @@
     "@stdlib/array-base-assert-is-accessor-array": "^0.1.0",
     "@stdlib/array-base-getter": "^0.1.0",
     "@stdlib/array-base-setter": "^0.1.0",
+    "@stdlib/ndarray-base-data-buffer": "github:stdlib-js/ndarray-base-data-buffer#main",
+    "@stdlib/ndarray-base-dtype": "github:stdlib-js/ndarray-base-dtype#main",
     "@stdlib/ndarray-base-numel": "^0.1.1",
+    "@stdlib/ndarray-base-offset": "github:stdlib-js/ndarray-base-offset#main",
+    "@stdlib/ndarray-base-order": "github:stdlib-js/ndarray-base-order#main",
+    "@stdlib/ndarray-base-shape": "github:stdlib-js/ndarray-base-shape#main",
+    "@stdlib/ndarray-base-strides": "github:stdlib-js/ndarray-base-strides#main",
     "@stdlib/types": "^0.1.0"
   },
   "devDependencies": {
