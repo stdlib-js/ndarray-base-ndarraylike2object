@@ -45,30 +45,14 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/ndarray-base-ndarraylike2object
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var ndarraylike2object = require( '@stdlib/ndarray-base-ndarraylike2object' );
+import ndarraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2object@deno/mod.js';
 ```
 
 #### ndarraylike2object( x )
@@ -76,7 +60,7 @@ var ndarraylike2object = require( '@stdlib/ndarray-base-ndarraylike2object' );
 Converts an [`ndarray`][@stdlib/ndarray/ctor]-like object to an object likely to have the same "shape".
 
 ```javascript
-var array = require( '@stdlib/ndarray-array' );
+import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
 
 var arr = array( [ [ 1, 2 ], [ 3, 4 ] ] );
 var obj = ndarraylike2object( arr );
@@ -132,8 +116,8 @@ var obj = ndarraylike2object( arr );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var array = require( '@stdlib/ndarray-array' );
-var ndarraylike2object = require( '@stdlib/ndarray-base-ndarraylike2object' );
+import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
+import ndarraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2object@deno/mod.js';
 
 // Create an ndarray:
 var x = array( [ [ 1, 2 ], [ 3, 4 ] ] );
@@ -182,7 +166,7 @@ console.log( 'accessor protocol: %s', obj.accessorProtocol );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -242,7 +226,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-ndarraylike2object/main/LICENSE
 
-[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor
+[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor/tree/deno
 
 </section>
 
