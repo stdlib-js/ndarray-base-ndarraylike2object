@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ndarraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2object@deno/mod.js';
+import ndarraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2object@v0.2.0-deno/mod.js';
 ```
 
 #### ndarraylike2object( x )
@@ -117,7 +117,7 @@ var obj = ndarraylike2object( arr );
 
 ```javascript
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
-import ndarraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2object@deno/mod.js';
+import ndarraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2object@v0.2.0-deno/mod.js';
 
 // Create an ndarray:
 var x = array( [ [ 1, 2 ], [ 3, 4 ] ] );
