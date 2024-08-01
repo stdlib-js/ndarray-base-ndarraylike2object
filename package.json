@@ -37,8 +37,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-accessor-getter": "^0.2.1",
-    "@stdlib/array-base-accessor-setter": "^0.2.1",
+    "@stdlib/array-base-accessor-getter": "^0.2.2",
+    "@stdlib/array-base-accessor-setter": "^0.2.2",
     "@stdlib/array-base-assert-is-accessor-array": "^0.2.2",
     "@stdlib/array-base-getter": "^0.2.2",
     "@stdlib/array-base-setter": "^0.2.2",
@@ -52,7 +52,7 @@
     "@stdlib/types": "^0.3.2"
   },
   "devDependencies": {
-    "@stdlib/array-complex64": "^0.2.1",
+    "@stdlib/array-complex64": "^0.3.0",
     "@stdlib/array-float64": "^0.2.2",
     "@stdlib/assert-is-collection": "^0.2.2",
     "@stdlib/complex-float32-ctor": "^0.0.2",
@@ -60,7 +60,7 @@
     "@stdlib/complex-float32-real": "^0.1.1",
     "@stdlib/ndarray-array": "^0.2.1",
     "@stdlib/ndarray-base-ctor": "^0.2.2",
-    "@stdlib/ndarray-ctor": "^0.2.1",
+    "@stdlib/ndarray-ctor": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
