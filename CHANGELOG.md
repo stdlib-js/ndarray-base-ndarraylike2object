@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-01)
+## Unreleased (2024-09-15)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`95ef049`](https://github.com/stdlib-js/stdlib/commit/95ef04997f2f0f98406dbdf59c5c0ff757c5637a) - **docs:** fix grammar _(by Athan Reines)_
 -   [`dd48932`](https://github.com/stdlib-js/stdlib/commit/dd489326b8dcee32f41f2ef7c2bafcaa4eb6ce46) - **docs:** fix descriptions _(by Athan Reines)_
 
 </details>
