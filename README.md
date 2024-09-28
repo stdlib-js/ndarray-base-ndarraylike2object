@@ -45,14 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-base-ndarraylike2object
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ndarraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2object@esm/index.mjs';
+var ndarraylike2object = require( '@stdlib/ndarray-base-ndarraylike2object' );
 ```
 
 #### ndarraylike2object( x )
@@ -60,7 +78,7 @@ import ndarraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ba
 Converts an [`ndarray`][@stdlib/ndarray/ctor]-like object to an object likely to have the same "shape".
 
 ```javascript
-import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
+var array = require( '@stdlib/ndarray-array' );
 
 var arr = array( [ [ 1, 2 ], [ 3, 4 ] ] );
 var obj = ndarraylike2object( arr );
@@ -115,14 +133,9 @@ var obj = ndarraylike2object( arr );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
-import ndarraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2object@esm/index.mjs';
+```javascript
+var array = require( '@stdlib/ndarray-array' );
+var ndarraylike2object = require( '@stdlib/ndarray-base-ndarraylike2object' );
 
 // Create an ndarray:
 var x = array( [ [ 1, 2 ], [ 3, 4 ] ] );
@@ -140,10 +153,6 @@ console.log( 'strides: [ %s ]', obj.strides.join( ', ' ) );
 console.log( 'offset: %d', obj.offset );
 console.log( 'order: %s', obj.order );
 console.log( 'accessor protocol: %s', obj.accessorProtocol );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -175,7 +184,7 @@ console.log( 'accessor protocol: %s', obj.accessorProtocol );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -238,7 +247,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-ndarraylike2object/main/LICENSE
 
-[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor/tree/esm
+[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor
 
 </section>
 
