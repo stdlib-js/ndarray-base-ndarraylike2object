@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ndarraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2object@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-ndarraylike2object/tags). For example,
+
+```javascript
 import ndarraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2object@v0.2.3-esm/index.mjs';
 ```
 
@@ -122,7 +127,7 @@ var obj = ndarraylike2object( arr );
 <script type="module">
 
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
-import ndarraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2object@v0.2.3-esm/index.mjs';
+import ndarraylike2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2object@esm/index.mjs';
 
 // Create an ndarray:
 var x = array( [ [ 1, 2 ], [ 3, 4 ] ] );
