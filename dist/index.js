@@ -1,5 +1,0 @@
-"use strict";var v=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var u=v(function(D,i){
-var o=require('@stdlib/array-base-assert-is-accessor-array/dist'),c=require('@stdlib/array-base-accessor-getter/dist'),q=require('@stdlib/array-base-accessor-setter/dist'),d=require('@stdlib/array-base-getter/dist'),g=require('@stdlib/array-base-setter/dist'),f=require('@stdlib/ndarray-base-numel/dist'),n=require('@stdlib/ndarray-base-dtype/dist'),p=require('@stdlib/ndarray-base-shape/dist'),l=require('@stdlib/ndarray-base-strides/dist'),h=require('@stdlib/ndarray-base-offset/dist'),y=require('@stdlib/ndarray-base-order/dist'),b=require('@stdlib/ndarray-base-data-buffer/dist');function S(r){var e,a,s,t;return e=b(r),s=p(r,!0),t=n(r),a=o(e),{ref:r,dtype:t,data:e,length:f(s),shape:s,strides:l(r,!0),offset:h(r),order:y(r),accessorProtocol:a,accessors:a?[c(t),q(t)]:[d(t),g(t)]}}i.exports=S
-});var m=u();module.exports=m;
-/** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
